@@ -31,3 +31,7 @@ The SQL statements provided in this repository are Data Definition Language (DDL
 ## Video demonstration
 
 
+## Author
+
+Viraj Patel -101224918 - Version 1.0
+
