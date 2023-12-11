@@ -19,7 +19,7 @@ The database structure consists of the following tables:
 9. ClassSchedule
 
 ## Database Relationships
-1. Views - 
+1. Views
 2. Trains
 3. Maintains
 4. Books
@@ -29,7 +29,7 @@ The database structure consists of the following tables:
 The SQL statements provided in this repository are Data Definition Language (DDL) statements. They include the creation of all necessary entity tables along with the relationships mentioned above
 
 ## Video demonstration
-
+https://www.youtube.com/watch?v=z1yzozeqE4M
 
 ## Author
 
