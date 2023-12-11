@@ -105,8 +105,11 @@ CREATE TABLE ClassSchedule (
     ScheduleID INT PRIMARY KEY,
     BookingID INT,
     TrainerID INT,
+    StaffID INT,
     FOREIGN KEY (BookingID) 
 		REFERENCES Books(BookingID),
     FOREIGN KEY (TrainerID) 
-		REFERENCES PersonalTrainer(TrainerID)
+		REFERENCES PersonalTrainer(TrainerID),
+    FOREIGN KEY (StaffID) 
+		REFERENCES AdministrativeStaff(StaffID)
 );
